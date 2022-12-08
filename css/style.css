@@ -1,0 +1,27 @@
+:root{
+    --my-dark-color:#2c3e50; 
+    --my-light-color:#1cbc9c;
+    --my-primary-color:#3a546d;
+}
+.bg-my-dark{
+    background-color: var(--my-dark-color);
+}
+.bg-my-light{
+    background-color: var(--my-light-color);
+}
+.bg-my-primary{
+    background-color: var(--my-primary-color);
+}
+.my-color-light{
+    color: var(--my-light-color);
+}
+a:not( .logo ):hover{
+    color: #1cbc9c!important;
+}
+.ovl{
+    opacity: 0;
+}
+.ovl:hover{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+}

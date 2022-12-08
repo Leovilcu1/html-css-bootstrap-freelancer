@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-info">
+<body >
     <!-- header -->
-    <header>
+
+    <header class="bg-my-dark text-white py-3">
         <div class="container">
-            <div class="row bg-secondary">
-                <div class="col">
-                    Start Bootstrap
+            <div class="row align-items-center">
+
+                <div class="col-7 p-md-0">
+                    <a class="text-decoration-none text-white logo fs-4" href="index.html">Start Bootstrap</a> 
                 </div>
-                <div class="col">
-                    <div class="row text-end">
-                        <div class="col d-none d-md-block">
-                            asd
+
+                <div class="col p-md-0">
+                    <div class="row text-end my-hover">
+
+                        <div class="col d-none d-md-block ">
+                            <a class="text-decoration-none text-white  fs-6 " href="#portfolio">PORTFOLIO</a>
                         </div>
+
                         <div class="col d-none d-md-block">
-                            asaaad
+                            <a class="text-decoration-none text-white  fs-6" href="#about">ABOUT</a>
                         </div>
+
                         <div class="col d-none d-md-block">
-                            asdaa
+                            <a class="text-decoration-none text-white  fs-6" href="#contact">CONTACT</a>
                         </div>
+
                         <div class="col d-md-none d-md-block">
-                            icon
+                            <button type="button" class="btn btn-outline-light"><i class="bi bi-list fs-4"></i></button>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -39,123 +48,228 @@
     <!-- MAIN -->
     <main>
         <!-- section-start-->
-        <div class="row g-0">
-            <div class="col bg-success bg-opacity-50">
-                <div class="container">
-                    <div class="row justify-content-center ">
-                        <div class="col-10 border text-center">
-                            <div class="div">box</div>
-                            <div class="div">box</div>
-                            <div class="div">box</div>
-                            <div class="div">box</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- section-portfolio -->
-        <div class="container">
-            <div class="row text-center border">
-                <div class="col-12 ">
-                    PORTFOLIO
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 g-3 border">
-                    img
-                </div>
-            </div>
-        </div>
-        <!-- section-about -->
-        <div class="row g-0">
-            <div class="col bg-success bg-opacity-50">
+            <section class="bg-my-light text-white py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-10 border">
-                            <div class="row text-center">
-                                <div class="col-12">
-                                    About
-                                </div>
-                                <div class="col-12 col-md-6 border">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis ducimus, quo aut exercitationem illo impedit fuga laborum quis soluta. Reiciendis quas possimus, maiores inventore repellat natus laboriosam. Libero, nihil minima assumenda non tenetur, et eligendi temporibus corporis doloremque sapiente doloribus cum inventore. Natus, doloribus deleniti! Omnis nemo perferendis possimus.
-                                </div>
-                                <div class="col-12 col-md-6 border">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor debitis temporibus repudiandae ea dignissimos esse architecto fugit cum facere inventore beatae, quidem quas dicta. Inventore labore ab sequi accusamus minima. Earum, asperiores rem rerum veniam accusantium nisi? Doloremque assumenda, magnam corrupti nesciunt soluta dicta odit hic! Impedit, consectetur iure.
-                                </div>
-                                <div class="col-12">
-                                    button
-                                </div>
+                        <div class="col-10 text-center">
+
+                            <img class="w-50 py-3" src="img/avatar.svg" alt="">
+                            <h2>START BOOTSTRAP</h2>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <span><i class="bi bi-star-fill fs-1 align-middle"></i></span>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <span><i class="bi bi-dash-lg"></i></span>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- section-portfolio -->
+        <section id="portfolio" class="container py-4">
+            <div class="row text-center ">
+                <div class="col-12 ">
+
+                    <h2>PORTFOLIO</h2>
+                    <span><i class="bi bi-dash-lg"></i></span>
+                    <span><i class="bi bi-dash-lg"></i></span>
+                    <span><i class="bi bi-dash-lg"></i></span>
+                    <span><i class="bi bi-star-fill fs-1 align-middle"></i></span>
+                    <span><i class="bi bi-dash-lg"></i></span>
+                    <span><i class="bi bi-dash-lg"></i></span>
+                    <span><i class="bi bi-dash-lg"></i></span>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img src="img/cabin.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img src="img/cake.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img src="img/circus.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img src="img/game.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img src="img/safe.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 g-3">
+
+                    <div class="card bg-dark">
+                        <img  src="img/submarine.png" alt="">
+                        <div class="card-img-overlay ovl align-items-center">
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+        <!-- section-about -->
+            <section id="about" class="bg-my-light text-white py-4">
+             <div class="container">
+
+                 <div class="row justify-content-center">
+                     <div class="col-10 ">
+                         <div class="row ">
+
+                            <div class="col-12 text-center">
+                                <h2>ABOUT</h2>
+                                <span><i class="bi bi-dash-lg"></i></span>
+                                <span><i class="bi bi-dash-lg"></i></span>
+                                <span><i class="bi bi-dash-lg"></i></span>
+                                <span><i class="bi bi-star-fill fs-1 align-middle"></i></span>
+                                <span><i class="bi bi-dash-lg"></i></span>
+                                <span><i class="bi bi-dash-lg"></i></span>
+                                <span><i class="bi bi-dash-lg"></i></span>
                             </div>
+
+                            <div class="col-12 col-md-6 py-4">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete sours files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                Whether you're a student lookink to showcase your work, a professional looking to attract clients,or a graphic artist looking to share your projects,this template is the perfect starting point!
+                            </div>
+
+                            <div class="col-12 text-center py-4">
+
+                                <button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i> DOWNLOAD</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            </section>
 
         <!--section-Contact-me -->
-        <div class="container">
+        <section id="contact" class="container py-4">
             <div class="row justify-content-center">
-                <div class="col-10 text-center bg-danger">
-                    <div class="box">
-                        scsccs
+                <div class="col-9">
+
+                    <div class="box text-center">
+                        <h2>CONTACT ME</h2>
+                        <span><i class="bi bi-dash-lg"></i></span>
+                        <span><i class="bi bi-dash-lg"></i></span>
+                        <span><i class="bi bi-dash-lg"></i></span>
+                        <span><i class="bi bi-star-fill fs-1 align-middle"></i></span>
+                        <span><i class="bi bi-dash-lg"></i></span>
+                        <span><i class="bi bi-dash-lg"></i></span>
+                        <span><i class="bi bi-dash-lg"></i></span>
                     </div>
-                    <div class="box">
-                        scsccs
-                    </div>
-                    <div class="box">
-                        scsccs
-                    </div>
-                    <div class="box">
-                        scsccs
-                    </div>
+
+                    <form action="" method="GET">
+                        <div class="box">
+                            <input class="input input border-0  border-bottom w-100 py-3" name:type="text" placeholder="Name" name="Name" >
+                        </div>
+    
+                        <div class="box">
+                            <input class="input input border-0  border-bottom w-100 py-3" type="email" placeholder="Email Address" name="Email_adress">
+                        </div>
+    
+                        <div class="box">
+                            <input class="input input border-0  border-bottom w-100 py-3" type="text" placeholder="Phone Number" name="Phone_namber">
+                        </div>
+                        
+                        <div class="box">
+                            <textarea class="input border-0  border-bottom w-100 py-4 "  placeholder="Message" name="Message" id="" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <div class="box">
+                            <button type="button" class="btn btn-success my-2">Send</button>
+                        </div>
+                    </form>
+             
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     
     <!-- footer-top-->
-    <footer>
-        <div class="row g-0 ">
-            <div class="col bg-secondary">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-12 col-md-4">
-                            dscsc
-                        </div>
-                        <div class="col-12 col-md-4">
-                            dscsc
-                        </div>
-                        <div class="col-12 col-md-4">
-                            dscsc
-                        </div>
+    <footer class="text-white">
+
+        <div class="footer-top bg-my-primary">
+            <div class="container">
+                <div class="row text-center px-4">
+
+                    <div class="col-12 col-md-4 py-4">
+                        <h3>LOCATION</h3>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
+
+                    <div class="col-12 col-md-4 py-4">
+                        <h3 class="pb-2">AROUND THE WEB</h3>
+                        <i class="bi bi-facebook border rounded-circle  p-2"></i>
+                        <i class="bi bi-google border rounded-circle p-2"></i>
+                        <i class="bi bi-twitter border rounded-circle  p-2"></i>
+                        <i class="bi bi-linkedin border rounded-circle  p-2"></i>
+                    </div>
+
+                    <div class="col-12 col-md-4 py-4">
+                        <h3>ABOUT FREELANCER</h3>
+                        <P>Freelance is a free to use, open source Bootstrap theme created by 
+                            <a class="text-decoration-none my-color-light p-1" href="#"> Start Bootstrap</a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
         <!-- footer-bottom -->
-        <div class="row g-0">
-            <div class="col bg-primary">
+        <div class="footer-bottom bg-my-dark py-4">
                 <div class="container">
                     <div class="row justify-content-center text-center">
+                        
                         <div class="col">
-                            Lorem ipsum dolor sit amet consectetur.
+                            <p>Copyright 
+                                <span><i class="bi bi-c-circle"></i></span>
+                                Your Website 2019
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
         
        
