@@ -18,10 +18,15 @@
 a:not( .logo ):hover{
     color: #1cbc9c!important;
 }
-.ovl{
-    opacity: 0;
+
+.my-nav li a {
+    color: white;
+    font-size: 14px;
+    
 }
-.ovl:hover{
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
+.my-text-smoll{
+    font-size: 14px;
+}
+.my-big-text{
+    font-size: 100px;
 }
